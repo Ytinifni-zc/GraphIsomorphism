@@ -36,6 +36,9 @@ int main(int argc, char *argv[]) {
             case 4:
                 hf = Matrix::EigenPR;
                 break;
+            case 5:
+                hf = Matrix::TreeHash;
+                break;
             default:
                 break;
         }

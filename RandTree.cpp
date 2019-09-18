@@ -145,6 +145,17 @@ int main(int argc, char *argv[]) {
     common_utils::cost([&]() {
         std::cout << "Eigen error rate: " << error_rate(tree_map) << std::endl;
     });
+#ifdef PRINT_DEBUG
+    for (auto &[k, v]: tree_map) {
+        std::cout << k;
+//            print_value(eigen_map, k);
+//            std::cout << "\t" << v;
+//            print_value(evc_map, k);
+//            print_value(pr_map, k);
+//            print_value(eig_pr_map, k);
+        std::cout << std::endl;
+    }
+#endif
 
     return 0;
 }
