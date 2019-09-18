@@ -1,0 +1,12 @@
+/Users/inFinity/Workspace/GI/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/inFinity/Workspace/GI/cmake-build-debug/CMakeFiles/tree.dir
+/Users/inFinity/Workspace/GI/cmake-build-debug/CMakeFiles/er.dir
+/Users/inFinity/Workspace/GI/cmake-build-debug/CMakeFiles/bm.dir
+/Users/inFinity/Workspace/GI/cmake-build-debug/CMakeFiles/pr.dir
+/Users/inFinity/Workspace/GI/cmake-build-debug/CMakeFiles/test.dir
+/Users/inFinity/Workspace/GI/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/inFinity/Workspace/GI/cmake-build-debug/CMakeFiles/Trace.dir
+/Users/inFinity/Workspace/GI/cmake-build-debug/CMakeFiles/GI.dir
+/Users/inFinity/Workspace/GI/cmake-build-debug/bliss/CMakeFiles/rebuild_cache.dir
+/Users/inFinity/Workspace/GI/cmake-build-debug/bliss/CMakeFiles/edit_cache.dir
+/Users/inFinity/Workspace/GI/cmake-build-debug/bliss/CMakeFiles/bliss.dir

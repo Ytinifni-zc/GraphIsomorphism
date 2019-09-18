@@ -1,0 +1,25 @@
+cmake_minimum_required(VERSION 3.10)
+project(GI)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_FLAGS "-O3 -g -fopenmp -march=native -O3 -ffast-math")
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin")
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib")
+
+add_executable(GI main.cpp Matrix.h)
+add_executable(Trace trace.cpp Matrix.h)
+add_executable(pr pagerank.cpp graph.h)
+add_executable(test test.cpp Matrix.h)
+add_executable(er ErdosRenyi.cpp Matrix.h)
+add_executable(bm Benchmark.cpp Matrix.h)
+add_executable(tree RandTree.cpp Matrix.h)
+
+add_subdirectory(bliss)
+
+target_link_libraries(GI PRIVATE bliss numa pthread)
+target_link_libraries(Trace PRIVATE bliss numa pthread)
+target_link_libraries(test PRIVATE bliss numa pthread)
+target_link_libraries(pr PRIVATE bliss numa pthread)
+target_link_libraries(er PRIVATE bliss numa pthread)
+target_link_libraries(bm PRIVATE bliss numa pthread)
+target_link_libraries(tree PRIVATE bliss numa pthread)

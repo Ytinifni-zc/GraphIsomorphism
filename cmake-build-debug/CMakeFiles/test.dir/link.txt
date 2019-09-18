@@ -1,0 +1,1 @@
+/usr/local/bin/g++-8  -O3 -g -fopenmp -march=native -O3 -ffast-math -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/test.dir/test.cpp.o  -o bin/test -Wl,-rpath,/Users/inFinity/Workspace/GI/cmake-build-debug/lib lib/libbliss.dylib -lnuma -lpthread 
